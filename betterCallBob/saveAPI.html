@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            const url = 'https://cannabis-recipes.p.rapidapi.com/recipes/';
+            const headers = {
+                'Authorization': 'Token 433f402b36eed37626d23d99548048d0ef9a3d06',
+                'X-RapidAPI-Key': '793edd5ef6msh7f05a2447e2d1e1p1b4ccfjsnccc26c47eaad',
+                'X-RapidAPI-Host': 'cannabis-recipes.p.rapidapi.com'
+            };
+
+            $.ajax({
+                url: url,
+                type: 'GET',
+                headers: headers,
+                success: function (response) {
+                    const recipesData = JSON.stringify(response, null, 4);
+
+                    // Create a Blob containing the recipesData
+                    const blob = new Blob([recipesData], { type: 'application/json' });
+
+                    // Create a URL for the Blob
+                    const blobUrl = URL.createObjectURL(blob);
+
+                    // Create a download link
+                    const downloadLink = document.createElement('a');
+                    downloadLink.href = blobUrl;
+                    downloadLink.download = 'cannabis_recipes.json';
+                    downloadLink.innerText = 'Download Recipes';
+
+                    // Append the link to the document
+                    document.body.appendChild(downloadLink);
+                },
+                error: function (error) {
+                    console.error('Error retrieving recipes:', error);
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>
