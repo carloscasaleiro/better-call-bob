@@ -1,8 +1,8 @@
 # Better Call Bob!
 
-Winner project of the Academia de Código bootcamp Hackaton.
+Winner project of the Academia de Código bootcamp Hackaton. 🏆🥇
 
-The "Better Call Bob!" web app is a cannabis recipe platform that allows users to explore and interact with a collection of cannabis-related recipes. Users can browse recipes, view recipe details, and filter recipes based on different categories and criteria.
+The "Better Call Bob!" web app is a recipe platform that allows users to explore and interact with a collection of cannabis-related recipes. Users can browse recipes, view recipe details, and filter recipes based on different categories and criteria.
 
 Index Page (HTML & CSS):
 
