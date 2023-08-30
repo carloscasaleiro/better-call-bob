@@ -11,19 +11,14 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-
-
 body {
   background-image: url('back.png');
   font-family: 'Varela Round', sans-serif;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  /* Isso ajuda a centralizar verticalmente também */
   overscroll-behavior: none;
 }
-
-
 
 header {
   top: 0;
@@ -35,7 +30,6 @@ header {
   background-color: #343A40;
   color: white;
   width: 100%;
-
 }
 
 img {
@@ -54,10 +48,8 @@ img {
 button {
   background: transparent;
   border: none;
-  /* Optional: Remove border */
   color: white;
   cursor: pointer;
-
 }
 
 footer {
@@ -85,8 +77,6 @@ footer {
   display: flex;
   justify-content: space-evenly;
 }
-
-
 
 .suggestions-row {
   display: flex;
@@ -120,7 +110,6 @@ footer {
 .suggestion img:hover {
   transform: scale(1.2);
 }
-
 
 #header1 {
   font-size: 30px;
@@ -160,9 +149,7 @@ input {
 /* ----------------------------------------- Recipe STYLES ------------------------------------- */
 .details-button {
   background-color: #343A40;
-  /* Change to the desired background color */
   color: #fff;
-  /* Change to the desired text color */
   border: none;
   padding: 8px 16px;
   border-radius: 4px;
@@ -173,7 +160,6 @@ input {
 .details-button:hover {
   background-image: linear-gradient(90deg, #0b8335 20%, #FFCF00 49%, #FC4F4F 80%);
   animation: slidebg 5s linear infinite;
-  /* Change to the desired hover background color */
 }
 
 #ingredients {
@@ -236,7 +222,6 @@ input {
   cursor: pointer;
   padding: 8px 16px;
   margin-bottom: 5%;
-
 }
 
 .rainbow-1:hover {
@@ -250,7 +235,6 @@ input {
   }
 }
 
-
 html {
   color: #222;
   font-size: 1em;
@@ -259,34 +243,7 @@ html {
 
 .container-fluid {
   max-width: 1500px;
-  /* Set the maximum width to 1200 pixels */
   margin: 0 auto;
-  /* Center the container horizontally */
-}
-
-/*   ------------------------------- FORM------------------------------*/
-
-#form {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  margin-left: 43%;
-  margin-top: 10%;
-}
-
-#form input {
-  width: 30%;
-}
-
-
-#btn-submit {
-  background-color: #343A40;
-  width: 31%;
-}
-
-#btn-submit:hover {
-  background-image: linear-gradient(90deg, #0b8335 20%, #FFCF00 49%, #FC4F4F 80%);
-  animation: slidebg 5s linear infinite;
 }
 
 /*
