@@ -2,6 +2,9 @@
 
 Winner project of the Academia de Código bootcamp Hackaton. 🏆🥇
 
+![screenshotMenu](https://github.com/carloscasaleiro/betterCallBob/assets/139387646/206c18e1-3797-478e-a01f-9e2847aecdc2)
+![screenshotRecipe](https://github.com/carloscasaleiro/betterCallBob/assets/139387646/69cd2eff-7b32-4429-9ca3-9d2625d464c8)
+
 The "Better Call Bob!" web app is a recipe platform that allows users to explore and interact with a collection of cannabis-related recipes. Users can browse recipes, view recipe details, and filter recipes based on different categories and criteria.
 
 Index Page (HTML & CSS):
