@@ -25,5 +25,8 @@ The JavaScript code for the recipe detail page retrieves the specific recipe's d
 
 Overall, the web app creates an interactive platform where users can explore a variety of cannabis recipes, view their details, and engage with the content through dynamic filtering and navigation features.
 
-Project made during the Academia de Código bootcamp between May -> Aug 2023. www.academiadecodigo.org
+### Live Demo:
+Check out the live demo [here](https://carloscasaleiro.github.io/betterCallBob/)!
+
+Project made during the Academia de Código bootcamp between May -> Aug 2023
 
