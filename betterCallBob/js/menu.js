@@ -9,7 +9,7 @@ $(document).ready(function () {
 
     $.getJSON('cannabis_recipes.json', function (response) {
 
-        response = response.filter(e => e.id !== 132 && e.id !== 133 && e.id !== 130 && e.id !== 10 && e.id !== 13 && e.id !== 54 && e.id !== 74 && e.id !== 88 && e.id !== 114 && e.id !== 116 && e.id !== 121);
+        response = response.filter(e => e.id !== 132 && e.id !== 133 && e.id !== 130 && e.id !== 10 && e.id !== 13 && e.id !== 54 && e.id !== 74 && e.id !== 88 && e.id !== 114 && e.id !== 116 && e.id !== 121 && e.id !== 58);
         console.log(response);
 
         response.forEach(recipe => {
